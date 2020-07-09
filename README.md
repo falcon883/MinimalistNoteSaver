@@ -1,3 +1,4 @@
+![](/app/src/main/res/mipmap-xxhdpi/ic_launcher.png) 
 # MinimalistNoteSaver
 A minimalist designed app for storing text note files with simple design and easy to use ui. 
 One of my first projects so it may have contain some bad practices.
