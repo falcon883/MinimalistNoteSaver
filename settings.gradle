@@ -1,0 +1,2 @@
+rootProject.name='Minimalist Note Saver'
+include ':app'

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/layoutBackground"
+    android:padding="16dp">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        app:indicatorColor="@color/colorBackground"
+        app:indicatorName="PacmanIndicator" />
+
+    <TextView
+        android:id="@+id/fileProg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:freezesText="true"
+        android:text="@string/progress"
+        android:textColor="@color/colorBackground"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/closeDialog"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fileProg"
+        android:layout_margin="10dp"
+        android:background="@color/colorBackground"
+        android:text="@string/close"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</RelativeLayout>
